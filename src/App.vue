@@ -70,27 +70,26 @@ export default {
     border-radius: 8px;
     margin: auto;
     padding: 15px;
-  }
-  .light {
-      display: inline-block;
-      border-radius: 100%;
-      width: 70px;
-      height: 70px;
-      margin-bottom: 8px;
-      opacity: 0.2;
-      transition: opacity 0.2s
-  }
-  .active {
-    opacity: 1;
-  }
-  .red {
-    background: red;
-  }
-  .yellow {
-    background: yellow;
-  }
-
-  .green {
-    background: limegreen;
+    .light {
+          display: inline-block;
+          border-radius: 100%;
+          width: 70px;
+          height: 70px;
+          margin-bottom: 8px;
+          opacity: 0.2;
+          transition: opacity 0.2s
+    }
+      .red {
+      background: red;
+    }
+      .yellow {
+        background: yellow;
+    }
+      .green {
+        background: limegreen;
+    }
+    .active {
+      opacity: 1;
+    }
   }
 </style>
